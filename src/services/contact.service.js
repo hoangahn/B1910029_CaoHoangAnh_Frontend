@@ -23,4 +23,5 @@ class ContactService {
         return (await this.api.delete(`/${id}`)).data;
     }
 }
+
 export default new ContactService();
